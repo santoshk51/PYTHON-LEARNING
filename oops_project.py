@@ -20,7 +20,7 @@ class chatbook:
 		elif user_input == "2":
 			self.signin()
 		elif user_input == "3":
-			pass
+			self.write_post()
 		else:
 			exit()
 
@@ -45,6 +45,15 @@ class chatbook:
 				print("Signin sucessfull!!")
 			else:
 				print("Inavlid credentials, please try again")
+		print("\n")
+		self.menu()
+
+	def write_post(self):
+		if self.loggedin == True:
+			post = input("Write your post here: ")
+			print(f"Your post has been published! ->{post}")
+		else:
+			print("Please signin first to write any post")
 		print("\n")
 		self.menu()
 
