@@ -17,3 +17,9 @@ print(txt.startswith(l))
 t = "hello world with chai"
 print(t.split())
 print(t.find("ai"))
+
+## operation in python
+
+a = 10
+b = 21
+print(b ** a)
