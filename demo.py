@@ -37,9 +37,27 @@ f3 = x < y
 f4 = x >= y
 f5 = x <= y
 
-print(f)
-print(f1)
-print(f2)
-print(f3)
-print(f4)
-print(f5)
+# print(f)
+# print(f1)
+# print(f2)
+# print(f3)
+# print(f4)
+# print(f5)
+
+
+# Membership & Identity operators
+
+lst = [1,2,3,4,5]
+lst1 = [1,2,3,4,5]
+x =5
+
+print(lst is not lst1)
+
+# name  = input("Enter your name: ")
+# print("Hello", name)
+
+#Type conversion
+
+age = int(input("Enter your age: "))
+price = float(input("Enter the price: "))
+print(age,"", price)
