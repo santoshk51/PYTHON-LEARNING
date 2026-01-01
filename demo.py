@@ -61,3 +61,10 @@ print(lst is not lst1)
 age = int(input("Enter your age: "))
 price = float(input("Enter the price: "))
 print(age,"", price)
+
+result = 10 + 2 * 3 # Multiplication happens first: 10 + (2 * 3) = 16
+print(result)
+result = (10 + 2) * 3 # Parentheses first: (10 + 2) * 3 = 36
+print(result)
+result = 2 ** 3 ** 2 # Right-to-left exponentiation: 2 ** (3 ** 2) = 2 ** 9 = 512
+print(result)
