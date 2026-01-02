@@ -104,4 +104,6 @@ else:
 	category = "senior citizen"
 
 print("category:", category)
+
+
 	
