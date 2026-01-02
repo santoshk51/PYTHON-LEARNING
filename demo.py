@@ -92,3 +92,16 @@ elif u1 == 5:
 else:
 	print("x is less than 5")
 
+
+# Using if else in data science
+
+age = 33
+if age < 18:
+	category = "Minor"
+elif age >= 18 and age < 65:
+	category = "Adult"
+else:
+	category = "senior citizen"
+
+print("category:", category)
+	
