@@ -177,9 +177,10 @@ userPass = input("Enter pass: ")
 
 if (userName ==  "admin" and userPass == "pass"):
 	print("Login succeed!")
-elif (userName != "admin"):
-	print("Wrong userName")
-elif (userPass != "pass"):
-	print("password is wrong")
 else:
-	print("Login failed")
+	if (userName != "admin"):
+		print("Wrong userName")
+	else:
+		print("password is wrong")
+
+
