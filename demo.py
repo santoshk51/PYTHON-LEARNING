@@ -191,3 +191,14 @@ for ch in phrase:
 	if (ch == "i"):
 		count += 1
 print("count is ", count)
+
+vowel = "artificialiiaeiou"
+count1 = 0
+
+for ch in vowel:
+	if (ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or	ch == 'u'):
+		count1 += 1
+print("The no. of vowel charchater is: ", count1)
+
+for i in range(2,11,2):
+	print(i)
