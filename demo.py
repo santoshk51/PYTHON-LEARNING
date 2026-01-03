@@ -142,9 +142,9 @@ my_list = []
 
 movies = []
 
-movies.append(input("Enter your 1st Movie: "))
-movies.append(input("Enter your 2st Movie: "))
-movies.append(input("Enter your 3st Movie: "))
+# movies.append(input("Enter your 1st Movie: "))
+# movies.append(input("Enter your 2st Movie: "))
+# movies.append(input("Enter your 3st Movie: "))
 
 print(movies)
 
@@ -155,7 +155,31 @@ palid = [1,2,3,2,1]
 plad1 = palid.copy()
 
 plad1.reverse()
-if plad1 == palid:
-	print("yes")
+# if plad1 == palid:
+# 	print("yes")
+# else:
+# 	print("not")
+
+# agecheck = int(input("Enter the Age: "))
+
+
+# if (agecheck < 13):
+# 	print("Minor")
+# elif (agecheck >=13 and agecheck < 18):
+# 	print("Teneger")
+# elif (agecheck < 65 and agecheck >= 18):
+# 	print("Adult")
+# else:
+# 	print("Senior Citizen")
+
+userName = input("Enter Username: ")
+userPass = input("Enter pass: ")
+
+if (userName ==  "admin" and userPass == "pass"):
+	print("Login succeed!")
+elif (userName != "admin"):
+	print("Wrong userName")
+elif (userPass != "pass"):
+	print("password is wrong")
 else:
-	print("not")
+	print("Login failed")
