@@ -44,6 +44,6 @@ class Student:
 
 s1 = Student("santosh", 98, 43.76)
 
-print(s1.name)
+print(s1._name)
 print(s1.roll_no)
 print(s1.marks)
