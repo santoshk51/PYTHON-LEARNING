@@ -7,7 +7,7 @@ for i in lists:
 	store += i
 	count += 1
 
-# print(store/count)
+print(store/count)
 
 # optimized way
 
