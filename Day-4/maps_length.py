@@ -6,10 +6,10 @@ print(count_length)
 
 
 #another way
-# count_length = {}
+count_length = {}
 
 for word in words:
 	count_length[word] = len(word)
 
-# print(count_length)
+print(count_length)
 	
