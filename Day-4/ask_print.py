@@ -9,5 +9,7 @@ for ch in user:
 	else:
 		seen.add(ch)
 		count += 1
+
+
 print(seen)
 print(count)
