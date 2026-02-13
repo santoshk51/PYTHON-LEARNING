@@ -7,6 +7,7 @@ for x in val:
 	print(x, end = " ")
 
 
+
 # multidimensional array
 zero = array(10)
 print(zero)
