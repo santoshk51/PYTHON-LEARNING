@@ -3,9 +3,11 @@ class Herbivore:
 		self.name = name
 		self.clas = clas
 
+
 	def m1(self):
 		return self.name and self.clas
 	
+
 class Carnivore:
 	def __init__(self, age):
 		self.age = age
