@@ -24,7 +24,6 @@ class Message:
     def display(self):
         print(f"[{self.timestamp.strftime('%H:%M:%S')}] {self.sender.username}: {self.text}")
 
-
 # ChatRoom class
 class ChatRoom:
     def __init__(self, room_name):
