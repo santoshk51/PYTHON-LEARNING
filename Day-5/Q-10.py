@@ -14,7 +14,6 @@ class User:
     def leave_chatroom(self, chatroom):
         chatroom.remove_user(self)
 
-
 # Message class
 class Message:
     def __init__(self, sender, text):
