@@ -11,7 +11,7 @@ class employee:
 		print("manually called travel method")
 		print(f"Employee is travelling to {destination}")
 
-# create an object/instance of employee class
+# create an object/instance of employee
 sk = employee()
 
 sk.travel("karela")
