@@ -10,6 +10,5 @@ for ch in user:
 		seen.add(ch)
 		count += 1
 
-
 print(seen)
 print(count)
