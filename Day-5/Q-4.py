@@ -16,7 +16,7 @@ class circle(Shape):
 	
 	def area(self):
 		return 3.14 * self.radius * self.radius
-	
+
 		
 class Rectangle(Shape):
 	def __init__(self, l, b):
@@ -33,7 +33,7 @@ class Triangle(Shape):
 	
 	def area(self):
 		return 0.5 * self.base * self.height
-	
+
 
 C = circle(7)
 R = Rectangle(45, 7)
