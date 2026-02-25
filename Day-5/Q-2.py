@@ -16,6 +16,7 @@ class Book:
 		for review in self.reviews:
 			print("_", review)
 
+
 b1 = Book("atomic habit","james")
 b2 = Book("we were never meant to be.","krishna", "3star")
 b3 = Book("alone","rk", "2star")
