@@ -4,7 +4,6 @@ count_length = {word : len(word) for word in words}
 
 print(count_length)
 
-
 #another way
 count_length = {}
 
