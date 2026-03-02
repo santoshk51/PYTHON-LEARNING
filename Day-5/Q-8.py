@@ -5,6 +5,7 @@ class player:
 		self.level = level
 		player.player_count += 1
 
+
 p1 = player("SK", 5)
 p2 = player("RK", 9)
 p3 = player("CK", 7)
