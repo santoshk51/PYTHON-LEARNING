@@ -35,6 +35,7 @@ class ChatRoom:
         self.users.append(user)
         print(f"{user.username} joined {self.room_name}")
 
+
     def remove_user(self, user):
         self.users.remove(user)
         print(f"{user.username} left {self.room_name}")
