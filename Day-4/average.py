@@ -10,5 +10,4 @@ for i in lists:
 print(store/count)
 
 # optimized way
-
 print(sum(lists) / len(lists))
