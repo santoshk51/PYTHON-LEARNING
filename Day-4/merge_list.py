@@ -13,6 +13,7 @@ result.sort()
 
 print("Sorted Lists: ",result)
 
+
 even = []
 odd = []
 for i in result:
