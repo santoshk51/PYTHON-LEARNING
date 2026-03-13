@@ -25,6 +25,7 @@ class chatbook:
 		else:
 			exit()
 
+
 	def signup(self):
 		email = input("Enter your email here: ")
 		password = input("Enter your password here: ")
